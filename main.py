@@ -160,4 +160,7 @@ def main():
 
 #start game
 if __name__ == "__main__":
-  main()
+  try:
+    main()
+  finally:
+    input("Press Enter to exit...")
